@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+       <meta charset="UTF-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+      <title>Tribute Nina Simone</title>
+    </head>
+    <body>
+      <main id="main">
+        <h1 id="title">Nina Simone</h1>
+        <p>High Priestess of Soul</p>
+        <div id="img-div">
+          <img id="image" src="data:image/jpeg;base64,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" alt="Fancy Nina Simone"/>
+        <figcaption id="img-caption">1968 studio portrait of Nina Simone</figcaption>
+        </div>
+        <div id="tribute-info">
+          <h2>Timeline of Nina Simones´s life</h2>
+<ul>
+  <li><strong class="dates">1933 </strong>Nina Simone is born Eunice Kathleen Waymon in Tryon, North Carolina on February 21, 1933.</li>
+  <li><strong class="dates">1950 </strong>Simone graduates from Allen High School for Girls in Asheville, North Carolina. She spends the summer at the Juilliard School as a student of Carl Friedberg, preparing for an audition at the Curtis Institute of Music in Philadelphia. Her application was later denied, which Simone believed was due to racial discrimination.</li>
+  <li><strong class="dates">1955 </strong>Simone's first public performance under the name "Nina Simone" at the Midtown Bar and Grill in Atlantic City.</li>
+  <li><strong class="dates">1957 </strong>Simone records her first album, "Little Girl Blue," a mixture of jazz, blues and classical.</li>
+  <li><strong class="dates">1959 </strong>"Little Girl Blue" is released. After the album's success, Simone signs a contract with Colpix Records and records a number of studio and live albums, including live albums "Nina Simone at Town Hall" and "The Amazing Nina Simone."</li>
+  <li><strong class="dates">1960s </strong>Simone’s music and voice become intertwined with the civil rights movement.</li>
+  <li><strong class="dates">1960 </strong>Release of her album, "Nina at Newport."</li>
+  <li><strong class="dates">1961 </strong>Release of her studio album, "Forbidden Fruit," Simone's fifth album since "Little Girl Blue."</li>
+  <li><strong class="dates">1962 </strong>Release of albums "At the Village Gate" and "Nina Simone Sings Ellington."</li>
+  <li><strong class="dates">1963 </strong>“Mississippi Goddamn” is written and released in response to the assassination of Medgar Evers and the bombing of the 16th Street Baptist Church in Birmingham, Alabama.</li>
+  <li><strong class="dates">1964 </strong>Simone signs to Philips Records, a Dutch company that allows her to record songs that draw on her African American heritage. Release of her studio album, "Broadway - Blues - Ballads."</li>
+  <li><strong class="dates">1965 </strong>Release of her studio albums, "Let It All Out," "I Put a Spell on You" and "Pastel Blues."</li>
+  <li><strong class="dates">1966 </strong>Release of her studio album, "Wild Is the Wind."</li>
+  <li><strong class="dates">1967 </strong>Release of her studio albums, "High Priestess of Soul," "Nina Simone Sings the Blues" and "Silk & Soul."</li>
+  <li><strong class="dates">1968 </strong>Release of her studio and live album, "'Nuff Said!"</li>
+  <li><strong class="dates">1969 </strong>Release of her studio album, "Black Gold."</li>
+  <li><strong class="dates">1970 </strong>Release of her studio album, "Gifted & Black."</li>
+  <li><strong class="dates">1971 </strong>Release of her 13th studio album, "Here Comes the Sun."</li>
+  <li><strong class="dates">1973 </strong>Simone leaves the United States for Barbados. She relocates to Liberia, then to various places in Europe, where she spends the rest of her life.</li>
+  <li><strong class="dates">1978 </strong>Release of her 14th studio album, "Baltimore."</li>
+  <li><strong class="dates">1993 </strong>Release of her final album, "A Single Woman."</li>
+  <li><strong class="dates">APRIL 21, 2003
+ </strong>Nina Simone dies at her home in Carry-le-Rouet, France at the age of 70.</li>
+  <li><strong class="dates">2018 </strong>Simone's childhood home in Tryon, North Carolina is designated a National Treasure by the National Trust for Historic Preservation.</li>
+  
+</ul>
+        </div>
+        <footer> <a id="tribute-link" value="wiki"  href="https://es.wikipedia.org/wiki/Nina_Simone" alt="wiki link" target="_blank">Wiki page</a> </footer>
+        
+      </main>
+    </body>
+  </html>
